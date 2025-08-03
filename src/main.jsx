@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import AshEmberGame from './app.jsx';
-import './styles.css';
+import './index.css';
 
 const rootEl = document.getElementById('root');
 if (rootEl) {
