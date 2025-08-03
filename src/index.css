@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Global styles for Ash and Ember game */
 body {
   background: radial-gradient(circle at top left, #111, #000);
@@ -24,4 +28,10 @@ button:hover {
 
 button:active {
   transform: scale(0.96);
+}
+
+@layer components {
+  .game-card {
+    @apply bg-gradient-to-br from-black/60 to-black/40 rounded-lg p-4 border border-gray-600/50 shadow-lg hover:border-gray-500/70 transition-all;
+  }
 }
