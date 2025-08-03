@@ -1064,7 +1064,7 @@ return (
 {/* Header */}
 <div className="text-center mb-6">
 <div className="flex items-center justify-center gap-3 mb-3">
-<h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-400 via-red-500 to-amber-500 bg-clip-text text-transparent animate-pulse">
+<h1 className="game-title text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-400 via-red-500 to-amber-500 bg-clip-text text-transparent animate-pulse">
 Ash & Ember
 </h1>
 <button
