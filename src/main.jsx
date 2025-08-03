@@ -4,8 +4,7 @@ import AshEmberGame from './app.jsx';
 
 const rootEl = document.getElementById('root');
 if (rootEl) {
-  const root = createRoot(rootEl);
-  root.render(React.createElement(AshEmberGame));
+  createRoot(rootEl).render(<AshEmberGame />);
 }
 
 if ('serviceWorker' in navigator) {
