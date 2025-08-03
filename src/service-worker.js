@@ -20,15 +20,9 @@ CACHE_NAME) • map (key => caches.delete(key) )
 }) ;
 
 self addEventListener ('fetch', event => {
-27
 event. respondWith(
-28
 caches.match (event. request). then (response =>
-29
 response || fetch(event. request)
-30
 )
-31
 ) ;
-32
 }) ;
