@@ -2,8 +2,8 @@ const CACHE_NAME = 'ash-ember-cache-v1';
 const OFFLINE_URLS = [
   '/',
   '/index.html',
-  '/app.js',
-  '/main.js',
+  '/logo192.png',
+  '/logo512.png',
   '/manifest.json'
 ];
 

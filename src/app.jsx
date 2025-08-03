@@ -918,15 +918,16 @@ const TabButton = ({ id, icon: Icon, label, isActive, onClick, badge }) => (
 onClick={() => onClick(id)}
 className={`flex flex-col items-center justify-center py-2 px-1 rounded-lg font-semibold transition-all relative min-h-[50px] active:scale-95 ${ isActive ? 'bg-orange-500/20 text-orange-400 scale-105' : 'text-gray-400 hover:text-gray-200 hover:bg-gray-800/30' }`}
 
-<Icon className="w-5 h-5 mb-1" />
-<span className="text-xs leading-tight text-center">{label}</span>
-{badge && (
-  <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center font-bold">
-    {badge}
-  </div>
-)}
+>
+  <Icon className="w-5 h-5 mb-1" />
+  <span className="text-xs leading-tight text-center">{label}</span>
+  {badge && (
+    <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center font-bold">
+      {badge}
+    </div>
+  )}
 
-  </button>
+</button>
 );
 
 // ===== MAIN COMPONENT =====

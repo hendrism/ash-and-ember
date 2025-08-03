@@ -1,15 +1,12 @@
 {
-"name": "Ash and Ember",
-"short_name": "AshEmber",
-"start_url": "
-"display": "standalone",
-"background_color": "#000000",
-"theme_color": "#FF4500" ,
-"icons": [
-{ "src": "icons/icon-192.png" ,"sizes":
-"192x192", "type": "image/png" },
-{ "src": "icons/icon-512.png"
-"sizes":
-"512x512", "type": "image/png" }
-]
+  "name": "Ash and Ember",
+  "short_name": "AshEmber",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FF4500",
+  "icons": [
+    { "src": "/logo192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/logo512.png", "sizes": "512x512", "type": "image/png" }
+  ]
 }
